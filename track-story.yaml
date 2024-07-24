@@ -1,0 +1,23 @@
+appId: com.example.nudgetest_demoqa1
+---
+
+# Launch the application
+- launchApp
+
+- tapOn: User Identifier
+- tapOn: Track Quiz
+- assertVisible: werwer werwer
+- tapOn: werwer werwer
+- back
+# Swipe left action (customize the swipe direction and distance if needed)
+- swipe: 
+    direction: LEFT
+# Conditional execution to tap on Track Story when it becomes visible    
+- runFlow:
+    when:
+      visible: Track Story
+    commands:
+        - tapOn: Track Story
+# Ensure Track Story is tapped if not handled by conditional flow
+- tapOn: Track Story
+
