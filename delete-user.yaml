@@ -1,0 +1,6 @@
+appId: com.example.nudgetest_demoqa1
+---
+- launchApp
+
+- tapOn: Delete User
+

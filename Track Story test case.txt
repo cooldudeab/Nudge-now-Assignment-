@@ -1,0 +1,50 @@
+ 
+### Test Case 1: Launch the Application
+**Objective:** Verify that the application launches successfully.
+- **Steps:**
+  1. Launch the application with `appId: com.example.nudgetest_demoqa1`.
+- **Expected Result:** The application should open without errors.
+
+### Test Case 2: Navigate to Track Quiz
+**Objective:** Ensure the user can navigate to the Track Quiz section.
+- **Steps:**
+  1. Launch the application.
+  2. Tap on the "User Identifier".
+  3. Tap on "Track Quiz".
+  4. Verify that the element "werwer werwer" is visible.
+- **Expected Result:** The element "werwer werwer" should be visible.
+
+### Test Case 3: Interact with Track Quiz
+**Objective:** Test interaction with "werwer werwer" element within Track Quiz.
+- **Steps:**
+  1. Launch the application.
+  2. Tap on the "User Identifier".
+  3. Tap on "Track Quiz".
+  4. Tap on the "werwer werwer" element.
+  5. Navigate back to the previous screen.
+- **Expected Result:** The element "werwer werwer" should be tappable, and the user should be able to navigate back.
+
+### Test Case 4: Swipe Left
+**Objective:** Verify the swipe left action functionality.
+- **Steps:**
+  1. Launch the application.
+  2. Perform a swipe left action with the specified direction and distance.
+- **Expected Result:** The swipe action should be performed correctly, changing the visible content accordingly.
+
+### Test Case 5: Conditional Tap on Track Story
+**Objective:** Ensure that "Track Story" is tapped when it becomes visible.
+- **Steps:**
+  1. Launch the application.
+  2. Perform the actions that lead up to the visibility of "Track Story".
+  3. Wait for "Track Story" to become visible.
+  4. Tap on "Track Story" when it appears.
+- **Expected Result:** "Track Story" should be tapped if it becomes visible.
+
+### Test Case 6: Ensure Track Story is Tapped
+**Objective:** Verify that "Track Story" is tapped if not handled by conditional flow.
+- **Steps:**
+  1. Launch the application.
+  2. Ensure that "Track Story" is tapped, regardless of visibility.
+- **Expected Result:** "Track Story" should be tapped.
+
+These test cases cover the main actions and checks defined in your script. If there are any additional scenarios or details to include, feel free to let me know!

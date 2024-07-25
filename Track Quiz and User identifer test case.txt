@@ -1,0 +1,68 @@
+
+
+### Test Case 1: Launch the Application
+**Test Objective**: Verify that the application launches successfully.
+- **Preconditions**: Application is installed on the device.
+- **Steps**:
+  1. Launch the application.
+- **Expected Result**: The application launches without errors.
+
+### Test Case 2: Navigate to User Identifier Section
+**Test Objective**: Verify that the app navigates to the User Identifier section.
+- **Preconditions**: Application is launched.
+- **Steps**:
+  1. Wait until "User Identifier" is visible.
+  2. Tap on "User Identifier".
+- **Expected Result**: The application navigates to the User Identifier section.
+
+### Test Case 3: Navigate to Track Quiz Section
+**Test Objective**: Verify that the app navigates to the Track Quiz section.
+- **Preconditions**: In the User Identifier section.
+- **Steps**:
+  1. Wait until "Track Quiz" is visible.
+  2. Tap on "Track Quiz".
+- **Expected Result**: The application navigates to the Track Quiz section.
+
+### Test Case 4: Start the Quiz
+**Test Objective**: Verify that the quiz starts successfully.
+- **Preconditions**: In the Track Quiz section.
+- **Steps**:
+  1. Wait until "Start Quiz" is visible.
+  2. Tap on "Start Quiz".
+- **Expected Result**: The quiz starts, and the first question is displayed.
+
+### Test Case 5: Answer Quiz Questions
+**Test Objective**: Verify that each quiz question is answered correctly.
+- **Preconditions**: Quiz is started, and the first question is displayed.
+- **Steps**:
+  1. Wait until the first question is visible.
+  2. Tap on the correct answer for each question.
+- **Expected Result**: Each question is answered correctly in sequence.
+  - Question 1: Tap on "C) PARIS".
+  - Question 2: Tap on "B) OXYGEN".
+  - Question 3: Tap on "C) WILLIAM SHAKESPEARE".
+  - Question 4: Tap on "C) JUPITER".
+  - Question 5: Tap on "B) 1912".
+  - Question 6: Tap on "C) 2".
+  - Question 7: Tap on "C) LEONARDO DA VINCI".
+  - Question 8: Tap on "B) AVOCADO".
+  - Question 9: Tap on "B) JAPAN".
+  - Question 10: Tap on "A) 0".
+
+### Test Case 6: View Rewards
+**Test Objective**: Verify that the rewards section is accessible after completing the quiz.
+- **Preconditions**: Quiz is completed.
+- **Steps**:
+  1. Wait until "MY REWARDS" is visible.
+  2. Tap on "MY REWARDS".
+- **Expected Result**: The application navigates to the rewards section, and rewards are displayed.
+
+### Test Case 7: Return to Home Screen
+**Test Objective**: Verify that the app returns to the home screen after viewing rewards.
+- **Preconditions**: In the rewards section.
+- **Steps**:
+  1. Wait until "BACK TO HOME" is visible.
+  2. Tap on "BACK TO HOME".
+- **Expected Result**: The application navigates back to the home screen.
+
+Each test case ensures that the specified action is performed correctly and that the application behaves as expected at each step of the script.

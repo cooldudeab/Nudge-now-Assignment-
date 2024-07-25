@@ -1,0 +1,142 @@
+appId: com.example.nudgetest_demoqa1
+---
+
+# Launch the application
+- launchApp
+
+
+
+# Step 1: Navigate to User Identifier section
+- runFlow:
+    when:
+      visible: User Identifier
+    commands:
+        - tapOn: User Identifier
+
+# Step 2: Go to the Track Quiz section
+- runFlow:
+    when:
+      visible: Track Quiz
+    commands:
+        - tapOn: Track Quiz
+
+# Step 3: Start the quiz
+- runFlow:
+    when:
+      visible: Start Quiz
+    commands:
+        - tapOn: Start Quiz
+
+# Step 4: Answer the quiz questions
+- assertVisible: What is the capital of France? 
+# Question 1: Capital of France
+- runFlow:
+    when:
+      visible: C) PARIS
+    commands:
+        - tapOn: C) PARIS
+
+# Add a brief delay to simulate real user interaction
+   
+
+# Question 2: Main component of air
+- runFlow:
+    when:
+      visible: B) OXYGEN
+    commands:
+        - tapOn: B) OXYGEN
+
+# Delay to simulate real user interaction
+   
+
+# Question 3: Famous playwright
+- runFlow:
+    when:
+      visible: C) WILLIAM SHAKESPEARE
+    commands:
+        - tapOn: C) WILLIAM SHAKESPEARE
+# Delay to simulate real user interaction
+   
+
+# Question 4: Largest planet in the solar system
+- runFlow:
+    when:
+      visible: C) JUPITER
+    commands:
+        - tapOn: C) JUPITER
+
+# Delay to simulate real user interaction
+   
+
+# Question 5: Year the Titanic sank
+- runFlow:
+    when:
+      visible: B) 1912
+    commands:
+        - tapOn: B) 1912
+
+# Delay to simulate real user interaction
+   
+
+# Question 6: Number of continents with 'America' in their name
+- runFlow:
+    when:
+      visible: C) 2
+    commands:
+        - tapOn: C) 2
+
+# Delay to simulate real user interaction
+   
+
+# Question 7: Painter of the Mona Lisa
+- runFlow:
+    when:
+      visible: C) LEONARDO DA VINCI
+    commands:
+        - tapOn: C) LEONARDO DA VINCI
+
+# Delay to simulate real user interaction
+   
+
+# Question 8: Fruit known as 'alligator pear'
+- runFlow:
+    when:
+      visible: B) AVOCADO
+    commands:
+        - tapOn: B) AVOCADO
+
+# Delay to simulate real user interaction
+   
+
+# Question 9: Country known for sushi
+- runFlow:
+    when:
+      visible: B) JAPAN
+    commands:
+        - tapOn: B) JAPAN
+
+# Delay to simulate real user interaction
+   
+
+# Question 10: Number of rings in the Olympic flag
+- runFlow:
+    when:
+      visible: A) 0
+    commands:
+        - tapOn: A) 0
+
+# Step 5: View rewards
+- runFlow:
+    when:
+      visible: MY REWARDS
+    commands:
+        - tapOn: MY REWARDS
+# Add a brief delay before navigating back
+   
+
+# Step 6: Return to the home screen
+- runFlow:
+    when:
+      visible: BACK TO HOME
+    commands:
+        - tapOn: BACK TO HOME
